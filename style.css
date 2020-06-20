@@ -160,7 +160,7 @@ span{
     padding-left: 20px;
     padding-right: 1rem;
     overflow: hidden;
-    overflow-x: hidden;
+    overflow-x: visible;
   
   }
   .about{
