@@ -12,15 +12,28 @@ body{
   padding-top: 1rem;
   padding-left: 77px;
   padding-right: 7rem;
-  overflow: hidden;
+  overflow-y: scroll;
+  background-image: url(/images/christin-hume-mfB1B1s4sMc-unsplash.jpg);
+  background-size:cover ;
 
+}
+@media screen and (max-width:1200px){
+
+  body{
+    background-size:auto;
+  }
 }
 .background-imag{
   position:absolute;
+  
   top: 0;
   left: 0;
 
   z-index: -1;
+}
+.background-imag img{
+  width:100%
+
 }
 .nav-bar{
   display: flex;
@@ -151,6 +164,20 @@ span{
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+.dot1{
+  background: #947666;
+  height: 15px;
+  width: 15px;
+  border-radius: 15px;
+  display:none
+}
+.dot2{
+  background: #947666;
+  height: 15px;
+  width: 15px;
+  border-radius: 15px;
+  display:none
+}
 /*Mobile Design*/
 @media only screen and (max-width: 601px) {
   body{
@@ -188,6 +215,10 @@ span{
     border-radius: 60px;
     border-width: 1.5px;
     font-size: 1rem;
+    display: none;
+  }
+  .logo h1{
+    font-size: 2rem;
   }
   .nav-bar{
     display: flex;
@@ -224,5 +255,34 @@ span{
   }
   .background-imag{
     display: none;
+  }
+  .dot1{
+    background: #947666;
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    display:block;
+    
+  }
+  .dot2{
+    background: #947666;
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    display:block;
+    
+  }
+  
+  .nav-dots{
+    display: flex;
+
+  }
+  .nav-dots div{
+    margin-left: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .nav-dots div :hover{
+   background:blue
   }
 } 
