@@ -13,8 +13,9 @@ body{
   padding-left: 77px;
   padding-right: 7rem;
   overflow-y: scroll;
-  background-image: url(images/christin-hume-mfB1B1s4sMc-unsplash.jpg);
-  background-size:cover ;
+  background-attachment: fixed;
+  background-color: aliceblue;
+  background-size: cover;
 
 }
 @media screen and (max-width:1200px){
@@ -68,6 +69,10 @@ body{
   border-width: 1.5px;
 }
 
+.button-primary a {
+  text-decoration: none;
+  color: #947666;
+}
 
 .quote-Wrapper{
  
@@ -152,6 +157,10 @@ span{
   right: 6rem;
   bottom: 4.3em;
   
+ color: #947666;
+}
+.social-icons a{
+ text-decoration: none;
  color: #947666;
 }
 .social-icon{
